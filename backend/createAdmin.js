@@ -12,12 +12,12 @@ const createAdminUser = async () => {
         await mongoose.connect(process.env.MONGODB_URI);
         console.log('✅ Connected to MongoDB');
 
-        // Admin user details - CHANGE THESE!
+        // Admin user details - 
         const adminData = {
             name: 'Admin User',
             email: 'admin@example.com',
             phone: '03001234567',
-            password: 'admin123',  // Change this to a secure password
+            password: 'admin123',
             role: 'admin'
         };
 

@@ -5,7 +5,7 @@ import { GoogleOAuthProvider } from '@react-oauth/google';
 import Navbar from './components/layout/Navbar';
 import ProtectedRoute from './components/ProtectedRoute';
 
-// Pages (will be created next)
+// Pages 
 import Home from './pages/Home';
 import Login from './pages/Login';
 import Signup from './pages/Signup';
